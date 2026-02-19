@@ -17,7 +17,7 @@ let b = () => {
     }else{
         alert("SuccesssFully Login");
         // window.location.replace("/home.html");
-        window.location.assign("/home.html");
+        window.location.assign("home.html");
     }
 }
 btn.addEventListener("click",b);

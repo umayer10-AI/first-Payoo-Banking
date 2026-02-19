@@ -17,5 +17,5 @@ button.addEventListener("click",(e) => {
 
 let l = document.querySelector("#logout");
 l.addEventListener("click",() => {
-    window.location.assign("/index.html");
+    window.location.assign("index.html");
 })
