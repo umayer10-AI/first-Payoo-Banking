@@ -27,7 +27,7 @@ let b3 = () => {
         return;
     }
     if(p === "1234"){
-        alert("Successfully Payment");
+        alert("Successfully Pay Bill");
         setValue(t);
 
         let history = document.querySelector("#history-save");

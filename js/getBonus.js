@@ -7,7 +7,7 @@ btn4.addEventListener("click",() => {
     // console.log(t2);
 
     if(ac2 === "4444"){
-        alert("Correct Coupon");
+        alert("You Receive 5000");
         setValue(t2);
 
         let history = document.querySelector("#history-save");
