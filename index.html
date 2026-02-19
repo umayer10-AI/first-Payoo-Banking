@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Outfit", sans-serif;
+        }
+    </style>
+</head>
+<body class="max-w-md min-h-screen mx-auto bg-base-200">
+    <section class="pt-30">
+        <div class="w-[50%] mx-auto mb-6">
+            <img src="assets/Logo-full.png" alt="">
+        </div>
+        <fieldset class="fieldset bg-base-200 border-base-300 rounded-box border p-5 mx-auto w-[85%] space-y-2 mt-2 bg-[#ffffff]">
+
+            <label class="label font-semibold text-base text-neutral">Mobile Number</label>
+            <input id="login-number" type="email" class="input w-full rounded-4xl px-5 py-6 bg-base-200 border-none" placeholder="Enter your number" maxlength="11" minlength="11"/>
+
+            <label class="label font-semibold text-base text-neutral">4 Digit Pin</label>
+            <input id="pass" type="password" maxlength="4" class="input w-full rounded-4xl px-5 py-6 bg-base-200 border-none" placeholder="Enter 4 Digit Pin" />
+
+            <button id="btn" class="btn btn-primary mt-4 rounded-full text-xl py-6">Login</button>
+        </fieldset>
+    </section>
+    <script src="js/machine.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
